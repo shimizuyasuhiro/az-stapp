@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "angular-app": {
-      "root": "ang",
+      "root": "",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
@@ -42,6 +42,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/ang",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
